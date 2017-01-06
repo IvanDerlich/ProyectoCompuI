@@ -1,0 +1,18 @@
+	CREATE
+		-Entrada: nombre, descripcion
+1-----------------------INSERT INTO `AsistenteFinanciero`.`CategoriasGasto` (`[nombre]`, `[descripcion]`) VALUES ('[c_nombre]', '[c_descripcion]' ;
+		-Comentarios: 
+			
+			
+	READ		
+2-----------------------SELECT * FROM AsistenteFinanciero.CategoriasGasto;
+		
+	UPDATE				
+		-c_nombre:
+3-----------------------UPDATE `AsistenteFinanciero`.`CategoriasGasto` SET `nombre`='[c_nombre]' WHERE `idCategoriaGasto`='[c_idCategoriaGasto]';
+		-c_descripcion:
+4-----------------------UPDATE `AsistenteFinanciero`.`CategoriasGasto` SET `descripcion`='[c_descripcion]' WHERE `idCategoriaGasto`='[c_idCategoriaGasto]';
+		
+	DELETE	
+		-Table Key: c_idCategoriaGasto		
+5-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idCategoriaGasto`='[c_idCategoriaGasto';

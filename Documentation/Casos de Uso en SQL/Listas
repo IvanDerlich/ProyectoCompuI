@@ -1,0 +1,19 @@
+	CREATE
+		-Entrada: nombre, descripcion, variable3
+1-----------------------INSERT INTO `AsistenteFinanciero`.`Listas` (`[nombre]`, `[descripcion]`, `[variable3]`) VALUES ('[c_nombre]', '[c_descripcion]', '[c_variable3]');
+		-Comentarios: 
+			
+			
+	READ		
+2-----------------------SELECT * FROM AsistenteFinanciero.Listas;
+		
+	UPDATE				
+		-c_nombre:
+3-----------------------UPDATE `AsistenteFinanciero`.`Listas` SET `nombre`='[c_nombre]' WHERE `idLista`='[c_idLista]';
+		-c_descripcion:
+4-----------------------UPDATE `AsistenteFinanciero`.`Listas` SET `descripcion`='[c_descripcion]' WHERE `idLista`='[c_idLista]';
+		-c_variable3:	
+5-----------------------UPDATE `AsistenteFinanciero`.`Listas` SET `variable3`='[c_variable3]' WHERE `idLista`='[c_idLista]';	
+	DELETE	
+		-Table Key: c_idLista		
+6-----------------------DELETE FROM `AsistenteFinanciero`.`Listas` WHERE `idLista`='[c_idLista]';

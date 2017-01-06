@@ -21,4 +21,4 @@ Comentarios generales
 
 	DELETE	
 		-Table Key: c_idCategoriaIngreso		
-6-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idCategoriaIngreso`='[c_idCategoriaIngreso]';
+6-----------------------DELETE FROM `AsistenteFinanciero`.`Tabla` WHERE `idCategoriaIngreso`='[c_idCategoriaIngreso]';

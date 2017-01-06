@@ -20,4 +20,4 @@ Comentarios generales
 		
 	DELETE	
 		-Table Key: c_idCategoriaGasto		
-6-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idCategoriaGasto`='[c_idCategoriaGasto';
+5-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idCategoriaGasto`='[c_idCategoriaGasto';

@@ -1,0 +1,30 @@
+Comentarios generales
+	Todas las variables de entrada son string, desconozco las variables int
+
+
+
+	CREATE
+		-Entrada: categoria, concepto, fecha, monto, comentarios
+1-----------------------INSERT INTO `AsistenteFinanciero`.`Ingresos` (`[categoria]`, `[concepto]`, `[fecha]`, `[monto `[comentarios]`) VALUES ('[c_categoria]', '[c_concepto]', '[c_fecha]', '[c_monto]', '[c_comentarios]');
+		-Comentarios: 
+			
+			
+	READ		
+2-----------------------SELECT * FROM AsistenteFinanciero.Ingresos;
+		
+	UPDATE				
+		-c_categoria:
+3-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `categoria`='[c_categoria]' WHERE `idIngreso`='[c_idIngreso]';
+		-c_concepto:
+4-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `concepto`='[c_concepto]' WHERE `idIngreso`='[c_idIngreso]';
+		-c_fecha:	
+5-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `fecha`='[c_fecha]' WHERE `idIngreso`='[c_idIngreso]';
+i		-c_monto:	
+6-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `monto`='[c_monto]' WHERE `idIngreso`='[c_idIngreso]';	
+		-c_comentarios:	
+7-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `comentarios`='[c_comentarios]' WHERE `idIngreso`='[c_idIngreso]';	
+		-c_variable6:	
+8-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `variable6`='[c_variable6]' WHERE `idIngreso`='[c_idIngreso]';	
+	DELETE	
+		-Table Key: c_idIngreso		
+9-----------------------DELETE FROM `AsistenteFinanciero`.`Ingresos` WHERE `idIngreso`='[c_idIngreso]';

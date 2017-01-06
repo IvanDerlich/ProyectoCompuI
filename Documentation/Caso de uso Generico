@@ -27,4 +27,4 @@ i		-c_variable4:
 5-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `variable6`='[c_variable6]' WHERE `idElemento`='[c_idElemento]';	
 	DELETE	
 		-Table Key: c_idElemento		
-6-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idElemento`='[c_idElemento]';
+6-----------------------DELETE FROM `AsistenteFinanciero`.`Tabla` WHERE `idElemento`='[c_idElemento]';

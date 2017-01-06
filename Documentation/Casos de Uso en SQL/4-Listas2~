@@ -4,8 +4,8 @@ Comentarios generales
 
 
 	CREATE
-		-Entrada: variable1, variable2, variable3
-1-----------------------INSERT INTO `AsistenteFinanciero`.`Tabla` (`[variable1]`, `[variable2]`, `[variable3]`) VALUES ('[c_variable1]', '[c_variable2]', '[c_variable3]');
+		-Entrada: nombre, descripcion, variable3
+1-----------------------INSERT INTO `AsistenteFinanciero`.`Tabla` (`[nombre]`, `[descripcion]`, `[variable3]`) VALUES ('[c_nombre]', '[c_descripcion]', '[c_variable3]');
 		-Comentarios: 
 			
 			
@@ -13,12 +13,12 @@ Comentarios generales
 2-----------------------SELECT * FROM AsistenteFinanciero.Tabla;
 		
 	UPDATE				
-		-c_variable1:
-3-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `variable1`='[c_variable1]' WHERE `idElemento`='[c_idElemento]';
-		-c_variable2:
-4-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `variable2`='[c_variable2]' WHERE `idElemento`='[c_idElemento]';
+		-c_nombre:
+3-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `nombre`='[c_nombre]' WHERE `idLista`='[c_idLista]';
+		-c_descripcion:
+4-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `descripcion`='[c_descripcion]' WHERE `idLista`='[c_idLista]';
 		-c_variable3:	
-5-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `variable3`='[c_variable3]' WHERE `idElemento`='[c_idElemento]';	
+5-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `variable3`='[c_variable3]' WHERE `idLista`='[c_idLista]';	
 	DELETE	
-		-Table Key: c_idElemento		
-6-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idElemento`='[c_idElemento]';
+		-Table Key: c_idLista		
+6-----------------------DELETE FROM `AsistenteFinanciero`.`Tabla` WHERE `idLista`='[c_idLista]';
