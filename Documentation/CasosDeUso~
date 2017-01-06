@@ -1,0 +1,28 @@
+-Recordatorio (nombre,descripcion,fecha)
+	Create
+	Read
+	Update
+	Detete
+-Lista de Listas (nombre,descripcion)
+	Create
+	Read
+	Update
+	Detete
+-Item Supermercado (nombre descripcion,lista'categoria')
+	Create
+	Read
+	Update
+	Detete
+-Clasificador (nombre, descripcion, tipo)
+	Create
+	Read
+	Update
+	Detete
+-Flujo Monetario (nombre, descripcion, tipo, fecha, monto)
+	Create
+	Read
+	Update
+	Detete
+
+TAREAS
+-Eliminar la columna fecha de la tabla ItemSupermercado

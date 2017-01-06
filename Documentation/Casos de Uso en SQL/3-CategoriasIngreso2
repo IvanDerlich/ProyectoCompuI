@@ -1,0 +1,24 @@
+Comentarios generales
+	Todas las variables de entrada son string, desconozco las variables int
+
+
+
+	CREATE
+		-Entrada: nombre, descripcion, 
+1-----------------------INSERT INTO `AsistenteFinanciero`.`Tabla` (`[nombre]`, `[descripcion]`) VALUES ('[c_nombre]', '[c_descripcion]';
+		-Comentarios: 
+			
+			
+	READ		
+2-----------------------SELECT * FROM AsistenteFinanciero.Tabla;
+		
+	UPDATE				
+		-c_nombre:
+3-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `nombre`='[c_nombre]' WHERE `idCategoriaIngreso`='[c_idCategoriaIngreso]';
+		-c_descripcion:
+4-----------------------UPDATE `AsistenteFinanciero`.`Tabla` SET `descripcion`='[c_descripcion]' WHERE `idCategoriaIngreso`='[c_idCategoriaIngreso]';
+	
+
+	DELETE	
+		-Table Key: c_idCategoriaIngreso		
+6-----------------------DELETE FROM `AsistenteFinanciero`.`TAbla` WHERE `idCategoriaIngreso`='[c_idCategoriaIngreso]';

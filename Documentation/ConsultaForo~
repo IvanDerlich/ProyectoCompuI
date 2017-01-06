@@ -1,0 +1,7 @@
+Hi everybody! I'm new at MySQL and english is not my native language. So I would really appreciate the patience if somebody answers my question:
+I have multiple tables, where each table has a foreign key pointing to the same table. In other words all foreign keys converge into that table.
+Lets call that table table A.
+(Perhaps "pointing" its not the correct verb, sory if that's the case)
+The problem is that I don't know how to restrict the insertion and update of new data into table A in way that each tuple has one and only one tuple pointing to it.
+For example: I need to avoid two tuples from different tables pointing to the same tuple in table A. And I need to avoid two tuples from the same table pointing to the same tuple in table A.
+Perhaps the solution its a trigger before insert and anether trigger before update in table A.

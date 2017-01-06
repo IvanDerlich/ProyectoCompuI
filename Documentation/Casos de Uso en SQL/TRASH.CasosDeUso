@@ -1,0 +1,37 @@
+Comentarios generales
+	Todas las variables de entrada son string, desconozco las variables int
+	Fecha va en formato YYYY/MM/DD
+
+-Recordatorio (nombre,descripcion,fecha)
+	Create
+		Variables de entrada en la QUERY: fecha, nombre, descripcion		
+		Query: 
+			INSERT INTO `AsistenteFinanciero`.`Recordatorios` (`fecha`, `nombre`, `descripcion`) VALUES ('[fecha]', '[nombre]', '[descripcion]');
+		Comentarios: 
+			"descripcion" puede no ir
+			
+	Read
+	Update
+	Detete
+-Lista de Listas (nombre,descripcion)
+	Create
+	Read
+	Update
+	Detete
+-Item Supermercado (nombre descripcion,lista'categoria')
+	Create
+	Read
+	Update
+	Detete
+-Clasificador (nombre, descripcion, tipo)
+	Create
+	Read
+	Update
+	Detete
+-Flujo Monetario (nombre, descripcion, tipo, fecha, monto)
+	Create
+	Read
+	Update
+	Detete
+
+TAREAS
