@@ -1,0 +1,21 @@
+-Ajustar la base de datos la tabla ingresos con una categoria booleana llamada ahorro. (en caso de no ser de ahorro, es corriente)
+
+-Intentar hacer 2 enlaces que se pasen a si mismos en un mismo main
+	tal vez usando un if junto con un flag por cada pagina
+-Hacer un enlace por cada pagina
+-Separar en archivos uno por cada pagina del diseño que le presente al profe
+
+-Hacer un CRUD de una pagina, tal vez CategoriaGastos que es simple
+-Hacer un CRUD de todas las paginas que lo necesiten
+
+-Agregarle estas funcionalidades:
+	Un aviso de la diferencia entre lo que ingresa y lo gastado
+	Permitir duplicar listas
+	Que muestre los eventos vencidos y por vencer (extra1)
+-Organizar el sitio de forma tal que se vea prolijo
+-Si sobra tiempo hacer las tareas "extra"
+
+Comentario:
+-En la consigna no especifica si hay que hacer logins
+-extra1: mostrar los dias de diferencia con el dia presente en otra columna
+
