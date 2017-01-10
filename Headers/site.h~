@@ -1,0 +1,12 @@
+#ifndef __GETPOST_H__
+#define __GETPOST_H__
+
+using namespace std;
+
+class Site{
+	private:
+	protected:
+	public:
+}
+
+#endif /*__GETPOST_H__*/

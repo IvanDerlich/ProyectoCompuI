@@ -10,7 +10,7 @@
 INC_DIR = ../Headers #directorio para el comando "#include"
 SRC_DIR = ../Sources
 #BIN_DIR = ../Binaries
-BIN_DIR = /var/www/cgi-bin
+BIN_DIR = /var/www/cgi-bin/Proyecto
 CFLAGS = -Wall -Wno-write-strings -Werror -g -I$(INC_DIR)
 LIBS =	-lmysqlcppconn -lmysqlcppconn-static 
 
