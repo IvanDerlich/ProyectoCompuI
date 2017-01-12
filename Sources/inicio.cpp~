@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 void inicio(){
 		cout << "Content-type: text/html" << endl << endl;
 		cout << "<html>" << endl;
