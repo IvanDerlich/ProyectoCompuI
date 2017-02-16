@@ -1,5 +1,5 @@
 	CREATE
-		-Entrada: categoria, concepto, fecha, monto, comentarios
+		-Entrada: categoria, concepto, fecha, monto, comentarios, ahorro
 1-----------------------INSERT INTO `AsistenteFinanciero`.`Ingresos` (`[categoria]`, `[concepto]`, `[fecha]`, `[monto `[comentarios]`) VALUES ('[c_categoria]', '[c_concepto]', '[c_fecha]', '[c_monto]', '[c_comentarios]');
 		-Comentarios: 
 			
@@ -18,8 +18,8 @@ i		-c_monto:
 6-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `monto`='[c_monto]' WHERE `idIngreso`='[c_idIngreso]';	
 		-c_comentarios:	
 7-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `comentarios`='[c_comentarios]' WHERE `idIngreso`='[c_idIngreso]';	
-		-c_variable6:	
-8-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `variable6`='[c_variable6]' WHERE `idIngreso`='[c_idIngreso]';	
+
+8-----------------------UPDATE `AsistenteFinanciero`.`Ingresos` SET `ahorro`='[c_ahorro]' WHERE `idIngreso`='[c_id_Ingreso]';	
 	DELETE	
 		-Table Key: c_idIngreso		
 9-----------------------DELETE FROM `AsistenteFinanciero`.`Ingresos` WHERE `idIngreso`='[c_idIngreso]';
