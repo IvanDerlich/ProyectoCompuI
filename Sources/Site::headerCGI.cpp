@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Site::headerCGI(){
+void Site::headerCGI(MAP &Post){
 		cout << "Content-type: text/html" << endl << endl;
 		cout << "<html>" << endl;
 		cout << "	<head>" << endl;
@@ -12,4 +12,5 @@ void Site::headerCGI(){
 		cout << "		<link href='http://localhost/css/ejemplo.css' rel='stylesheet'>" << endl;
 		cout << "	</head>" << endl;	
 		cout << "	<body>" <<endl;
+		this->menu_principal(Post);
 }

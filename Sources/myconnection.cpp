@@ -34,7 +34,7 @@ void MyConnection::connect()
     string server = "tcp://localhost:3306";
     string user = "root";
     string password = "qJ8ZtXub";
-    string database = "asistentefinanciero";
+    string database = "AsistenteFinanciero";
 
     /* Connect to database */
     sql::Driver* driver = get_driver_instance();
@@ -62,3 +62,4 @@ void MyConnection::execute(string stringSQL)
 
     this->connection->createStatement()->executeUpdate(stringSQL);
 }
+

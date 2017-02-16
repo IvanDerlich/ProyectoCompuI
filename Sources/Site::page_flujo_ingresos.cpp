@@ -3,9 +3,6 @@
 
 using namespace std;
 
-void Site::page_flujo(){
-	this->headerCGI();
-	this->menu_principal();
+void Site::page_flujo_ingresos(){
 	cout << "		<p>Estoy en la pagina de Ingresos</p>"<<endl;
-	this->footerCGI();
 }

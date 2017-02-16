@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Site::footerCGI(){
-	cout << "	</body>" << endl;
-	cout << "</html>" << endl;
+void Site::footerCGI(MAP &Post){
+	cout<<"</body>"<<endl;
+	cout<<"</html>"<<endl;
 }
